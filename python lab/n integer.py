@@ -1,3 +1,6 @@
-list=[1,2,3,4,5,6,7,8,9,10]
-total=sum(list)
-print(total)
+#wap to find the am or pm from the time given by the user
+time=input(int("the morning time,{am}"))
+if time>12:
+    print("{pm} ")
+else:
+    print("{am}")

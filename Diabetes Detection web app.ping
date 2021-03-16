@@ -11,10 +11,10 @@ st.write("""# Diabetes analysis.
 # Diabetes dectection using the ML in python!
 """)
 # open and display the image
-image = Image.open("C:/Users/Sagar Budhathoki/PycharmProjects/my calculator/diabities.py ")
+image = Image.open(" C:/Users/Sagar Budhathoki/PycharmProjects/my calculator/Diabetes Detection web app.ping")
 st.image(image, caption="ML", use_column_width=True)
 # get the data
-df = pd.read_csv('C:/Users/Sagar Budhathoki/Downloads/diabetes_csv.csv')
+df = pd.read_csv('C:/Users/Sagar Budhathoki/Downloads/diabetes_csv')
 # set a sub header
 st.subheader('Data Information:')
 # show the data as a table
