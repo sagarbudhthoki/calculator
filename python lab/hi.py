@@ -1,0 +1,16 @@
+a=2
+b=3
+c=4
+d=3
+print(a==b)
+print(a!=d)
+print(b==d)
+a+=c
+print(a)
+print(a!=c)
+b/=d
+print(b)
+print(b>a)
+print(a<d)
+print(b-a==c-b)
+print(b>=d)
